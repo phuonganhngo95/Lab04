@@ -1,0 +1,58 @@
+nav#navTop {
+    width: 960px;
+    height: 40px;
+    margin: 0 auto;
+    background: #ccc;
+}
+
+nav#navTop ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav#navTop ul li {
+    border-right: 1px solid #fff;
+    float: left;
+}
+
+nav#navTop ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+.selected,
+nav#navTop ul li a:hover {
+    background: red;
+    color: #fff;
+}
+
+nav#navTop ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Viết cho menu cấp 2 */
+nav#navTop ul li>ul {
+    position: absolute;
+    width: 159px;
+    background: #666;
+    visibility: hidden;
+}
+
+nav#navTop ul li:hover >ul {
+    visibility: visible;
+}
+
+nav#navTop ul li>ul li {
+    border-bottom: 1px solid #fff;
+}
+
+/* menu cấp N */
+nav#navTop ul li>ul li>ul {
+    margin-top: -38px;
+    margin-left: 159px;
+}
