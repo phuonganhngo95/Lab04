@@ -1,0 +1,12 @@
+ul {
+    margin: 10px;
+    color: blue;
+}
+
+ol {
+    color: red;  
+}
+
+ol>li {
+    padding-left: 10px;
+}

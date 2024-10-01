@@ -1,0 +1,62 @@
+body {
+    background-color: #f2f2f2;
+}
+
+form {
+    width: fit-content;
+}
+
+.login-form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    margin-bottom: 10px;
+}
+
+.input-field label {
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.input-field input {
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    margin: 5px 35px;
+    background-color: rgb(86, 149, 221);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pass-forget {
+    margin-left: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(67, 67, 206);
+}
