@@ -1,0 +1,307 @@
+.clearfix {
+    overflow: hidden;
+    clear: both;
+}
+
+header {
+    background: #2d303a;
+}
+
+.topnav {
+    width: 940px;
+    margin: 0 auto;
+    padding: 34px 0;
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(./fonts/lato-bold.css);
+}
+
+@font-face {
+    font-family: Lato-Black;
+    src: url(./fonts/lato-black.css);
+}
+
+@font-face {
+    font-family: lato-Light;
+    src: url(./fonts/lato-light.css);
+}
+
+#logo {
+    width: 200px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo a {
+    font-size: 25px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+}
+
+#logo a span {
+    color: #f06c64;
+}
+
+.topnav nav {
+    width: 431px;
+    float: right;
+}
+
+.topnav nav ul li {
+    float: left;
+    list-style: none;
+}
+
+.topnav nav ul li a {
+    display: block;
+    padding: 10px 20px 0 0;
+    font-size: 12px;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.selected,
+.topnav nav ul li a:hover {
+    color: #f06c64;
+}
+
+/* Banner */
+#banner {
+    padding: 50px 0;
+    background: #f06c64;
+}
+
+.fixwidth {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#ourServices {
+    background: #f2f2f2;
+    padding: 66px 0;
+}
+
+#portfolio h2,
+#aboutUs h3,
+#getaQuote h3,
+#ourServices h1 {
+    color: #666d89;
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#portfolio p,
+#aboutUs p,
+#getaQuote p,
+#ourServices p {
+    color: #767e9e;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 30px 0;
+    line-height: 30px;
+}
+
+.itemService {
+    width: 220px; /*250 */
+    float: left;
+    margin-right: 20px;
+    /* padding-left: 80px; */
+}
+
+.pencil {
+    background: url(./img/icon/pencil-regular-24.png) no-repeat;
+}
+
+.light {
+    background: url(./img/icon/bulb-regular-24.png) no-repeat;
+}
+
+.heart {
+    background: url(./img/icon/heart-regular-24.png) no-repeat;
+}
+
+.message {
+    background: url(./img/icon/message-rounded-regular-24.png) no-repeat;
+}
+
+.phone {
+    background: url(./img/icon/phone-solid-24.png) no-repeat;
+}
+
+.star {
+    background: url(./img/icon/star-regular-24.png) no-repeat;
+}
+
+/* Portfolio */
+#portfolio {
+    background: #2d303a;
+    padding: 65px 0;
+}
+
+.portfolio {
+    margin-bottom: 18px;
+}
+
+.portfolio ul li {
+    float: left;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.portfolio ul li a {
+    display: block;
+    padding: 5px;
+    color: #767e9e;
+    font-size: 12px;
+    border: 1px solid #767e9e;
+    border-radius: 5px;
+}
+
+.selectedx,
+.portfolio ul li a:hover {
+    color: #c5c5c5 !important;
+    border: 1px solid #c5c5c5 !important;
+}
+
+.itemx {
+    width: 215px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.itemfix {
+    margin-right: 0;
+}
+
+#aboutUs {
+    padding: 66px 0;
+}
+
+.itemAvata {
+    width: 300px;
+    float: left;
+    margin-right: 13px;
+}
+
+.itemAvata img {
+    margin-bottom: 20px;
+}
+
+#aboutUs .itemAvata h4,
+#ourServices h3 {
+    color: #666d89;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+#aboutUs .itemAvata p,
+#ourServices .itemService p {
+    line-height: 21px;
+}
+
+#getaQuote {
+    padding: 66px;
+    background: #f06c64;
+}
+
+.itemform {
+    width: 620px;
+    float: left;
+}
+
+.itemform input,
+.itemform textarea {
+    width: 90%;
+    background: #d6564f;
+    color: #f48c8f;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contactform {
+    width: 300px;
+    float: left;
+}
+
+.contactform h4 {
+    color: #f0d8d9;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.contactform .css,
+.contactform a {
+    color: #f0d8d9 !important;
+}
+
+.contactform ul li a {
+    display: block;
+    padding: 5px 25px;
+    background-position: 0 5px;
+}
+
+.location {
+    background: url(./img/icon/location-plus-regular-24.png) no-repeat;
+}
+
+.mail {
+    background: url(./img/icon/envelope-regular-24.png) no-repeat;
+}
+
+footer {
+    background: #2d303a;
+    padding: 22px 0;
+}
+
+footer .footer {
+    float: right;
+}
+
+footer .footer li,
+#aboutUs .itemAvata ul li {
+    float: left;
+    margin-right: 5px;
+}
+
+footer address {
+    color: #c5c5c5;
+    width: 300px;
+    float: left;
+    padding-top: 10px;
+}
+
+.contactform ul li {
+    list-style: none;
+}
+
+#aboutUs ul li,
+footer ul li {
+    list-style: none;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+footer ul li a:hover {
+    color: #f2f2f2;
+}
