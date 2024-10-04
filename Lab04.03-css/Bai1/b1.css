@@ -1,0 +1,43 @@
+nav {
+    background-color: #ccc;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+    padding: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.8;
+}
+
+a:hover {
+    color: #fff;
+}
+
+#menu-1>li+li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 2px;
+    background-color: red;
+    z-index: 2;
+}
+
+#menu-1 {
+    display: flex;
+}
+
+ul li:hover {
+    color: #fff;
+    background-color: green;
+}
