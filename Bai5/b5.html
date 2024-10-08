@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bài 5</title>
+    <title>Các Khóa Đào Tạo</title>
     <link rel="stylesheet" href="./b5.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var trainingLink = document.querySelector('.navbar a.active');
+            var container = document.querySelector('.container');
+            
+            trainingLink.addEventListener('click', function(event) {
+                event.preventDefault();
+                container.style.display = container.style.display === 'flex' ? 'none' : 'flex';
+            });
+        });
+    </script>
 </head>
 <body>
-    
+    <div class="navbar">
+        <a href="#">TRANG CHỦ</a>
+        <a href="#" class="active">CÁC KHÓA ĐÀO TẠO</a>
+        <a href="#">LẬP TRÌNH CHO TRẺ EM</a>
+        <a href="#">DỊCH VỤ</a>
+        <a href="#">LỊCH KHAI GIẢNG</a>
+        <a href="#">TIN TỨC</a>
+        <a href="#">TIỆN ÍCH</a>
+        <a href="#">LIÊN HỆ</a>
+    </div>
+    <div class="container">
+        <div class="category">
+            <h2>Chuyên đề WEB - PHP</h2>
+            <p>Lập trình web với <strong>HTML5 - CSS3 - JQuery - Bootstrap - Ajax</strong> - [36 giờ]</p>
+            <p>Lập trình web frontend - <strong>reactjs</strong> - [75 giờ]</p>
+            <p>Lập trình web với mã nguồn mở <strong>PHP&MYSQL - PHP FRAMEWORK</strong> [126 giờ]</p>
+        </div>
+        <div class="category">
+            <h2>Chuyên đề JAVA</h2>
+            <p>Ngôn ngữ lập trình hướng đối tượng với java - [40 giờ]</p>
+            <p>Lập trình ứng dụng với java - [100 giờ]</p>
+            <p>Lập trình web site với <strong>java framework</strong> (JPA, HIBERNATE, SPRING MVC, SPRINGBOOT) - [276 giờ]</p>
+        </div>
+        <div class="category">
+            <h2>Chuyên đề .NET</h2>
+            <p>Nền tảng lập trình hướng đối tượng với C# - [40 giờ]</p>
+            <p>Lập trình ứng dụng WINDOWS FORM - [100 giờ]</p>
+            <p>Lập trình Web với <strong>ASP.NET MVC 5, WebAPI</strong> - [145 giờ]</p>
+        </div>
+        <div class="category">
+            <h2>Chuyên đề Mobile</h2>
+            <p>Lập trình Games/Apps trên nền tảng Android - [120 giờ]</p>
+            <p>Lập trình Games/Apps trên nền tảng IOS - [120 giờ]</p>
+        </div>
+        <div class="category">
+            <h2>Chuyên đề NETWORK/SECURITY</h2>
+            <p>Khóa học Quản trị hạ tầng mạng CCNA v6 - [72 giờ]</p>
+            <p>Khóa học quản trị hệ thống với Windows SERVER 2012 - [72 giờ]</p>
+            <p>Chuyên gia bảo mật hệ thống CompTIA + - [110 giờ]</p>
+        </div>
+        <div class="category">
+            <h2>Chuyên đề khác</h2>
+            <p>Ngôn ngữ lập trình C/C++ - [80 giờ]</p>
+        </div>
+    </div>
 </body>
 </html>
