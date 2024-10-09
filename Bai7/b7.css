@@ -1,0 +1,45 @@
+body {
+    width: 500px;
+    margin: 10px auto;
+}
+
+h1, h2 {
+    color: green;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+span {
+    color: rgb(250, 164, 4);
+}
+
+.location li::marker {
+    color: red;
+}
+
+.location li.non::marker {
+    color: #000;
+}
+
+table tr td a {
+    text-decoration: none;
+}
+
+form {
+    line-height: 1.5;
+}
+
+form label,
+legend {
+    color: rgb(150, 13, 40);
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer a:hover {
+    color: rgb(30, 241, 241);
+}
